@@ -29,6 +29,11 @@ fuzzaldrin-plus@^0.6.0:
   resolved "https://registry.yarnpkg.com/fuzzaldrin-plus/-/fuzzaldrin-plus-0.6.0.tgz#832f6489fbe876769459599c914a670ec22947ee"
   integrity sha1-gy9kifvodnaUWVmckUpnDsIpR+4=
 
+prettier@^1.16.4:
+  version "1.16.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
+  integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
+
 vscode-jsonrpc@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/vscode-jsonrpc/-/vscode-jsonrpc-4.0.0.tgz#a7bf74ef3254d0a0c272fab15c82128e378b3be9"
