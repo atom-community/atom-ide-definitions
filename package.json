@@ -1,8 +1,8 @@
 {
-  "name": "atom-ide-go-to-definition",
-  "main": "./lib/atom-ide-go-to-definition",
+  "name": "atom-ide-definitions",
+  "main": "./lib/atom-ide-definitions",
   "version": "0.0.0",
-  "description": "Allows you to navigation to a definition.",
+  "description": "A replacement for the Definitions functionality that was originally part of the Atom IDE package from Facebook.",
   "keywords": [
     "atom-package",
     "atom-ide",
