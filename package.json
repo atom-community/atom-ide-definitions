@@ -1,0 +1,33 @@
+{
+  "name": "atom-ide-go-to-definition",
+  "main": "./lib/atom-ide-go-to-definition",
+  "version": "0.0.0",
+  "description": "Allows you to navigation to a definition.",
+  "keywords": [
+    "atom-package",
+    "atom-ide",
+    "defintion"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-ide-go-to-definition:go-to-definition"
+  },
+  "repository": "https://github.com/ryanolsonx/atom-ide-go-to-definition",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-languageclient": "^0.9.9"
+  },
+  "devDependencies": {
+    "@types/atom": "^1.31.1",
+    "@types/node": "^11.10.4"
+  },
+  "consumedServices": {
+    "definitions": {
+      "versions": {
+        "0.1.0": "consumeDefinitionsService"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Go to Definition",
+        "command": "atom-ide-go-to-definition:go-to-definition"
+      }
+    ]
+  }
+}
