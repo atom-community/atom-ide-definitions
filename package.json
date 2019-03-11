@@ -8,6 +8,9 @@
     "atom-ide",
     "defintion"
   ],
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
   "activationCommands": {
     "atom-workspace": "atom-ide-go-to-definition:go-to-definition"
   },
@@ -20,9 +23,24 @@
     "atom-languageclient": "^0.9.9"
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/travis-cli": "^7.5.2",
+    "@semantic-release/apm-config": "^6.0.1",
     "@types/atom": "^1.31.1",
     "@types/node": "^11.10.4",
-    "prettier": "1.16.4"
+    "commitlint": "^7.5.2",
+    "husky": "^1.3.1",
+    "prettier": "1.16.4",
+    "semantic-release": "^15.13.3"
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "consumedServices": {
     "definitions": {
