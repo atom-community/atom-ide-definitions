@@ -8,9 +8,6 @@
     "atom-ide",
     "defintion"
   ],
-  "scripts": {
-    "commitmsg": "commitlint -e $GIT_PARAMS"
-  },
   "activationCommands": {
     "atom-workspace": "atom-ide-go-to-definition:go-to-definition"
   },
@@ -41,6 +38,11 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "consumedServices": {
     "definitions": {
