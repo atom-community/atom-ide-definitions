@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.1...v0.1.2) (2019-03-11)
+
+
+### Bug Fixes
+
+* update package version to 0.1.1 ([0eb39d3](https://github.com/atom-ide-community/atom-ide-definitions/commit/0eb39d3))
+
 # [0.1.1](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.0...v0.1.1) (2019-03-11)
 
 ### Bug Fixes
