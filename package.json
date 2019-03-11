@@ -11,7 +11,7 @@
   "activationCommands": {
     "atom-workspace": "atom-ide-go-to-definition:go-to-definition"
   },
-  "repository": "https://github.com/ryanolsonx/atom-ide-definitions",
+  "repository": "https://github.com/atom-ide-community/atom-ide-definitions",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

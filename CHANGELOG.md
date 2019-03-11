@@ -1,3 +1,7 @@
+## 0.0.3
+
+- Move to atom-ide-community
+
 ## 0.0.2
 
 - Cleanup code (by adding and running prettier).
