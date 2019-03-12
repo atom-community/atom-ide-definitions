@@ -18,3 +18,7 @@ A replacement of the definitions functionality from the original Atom-IDE / Nucl
   * Rust [ide-rust](hhttps://atom.io/packages/ide-rust)
 
   You can also search for [packages](https://atom.io/packages/search?q=IDE) in Atom.
+
+## Development
+
+Please see [Development.md](./Development.md)
