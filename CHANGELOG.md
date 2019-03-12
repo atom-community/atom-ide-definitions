@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.2...v0.1.3) (2019-03-12)
+
+
+### Bug Fixes
+
+* add getting started to README ([4f6ef06](https://github.com/atom-ide-community/atom-ide-definitions/commit/4f6ef06))
+
 ## [0.1.2](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.1...v0.1.2) (2019-03-11)
 
 
