@@ -19,6 +19,6 @@ A replacement of the definitions functionality from the original Atom-IDE / Nucl
 
   You can also search for [packages](https://atom.io/packages/search?q=IDE) in Atom.
 
-## Development
+## Contributing
 
-Please see [Development.md](./Development.md)
+Please see the [contributing guidelines](CONTRIBUTING.md).
