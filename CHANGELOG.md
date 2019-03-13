@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.3...v0.2.0) (2019-03-13)
+
+
+### Features
+
+* refactor and handle providers in the right way ([051ac80](https://github.com/atom-ide-community/atom-ide-definitions/commit/051ac80))
+
 ## [0.1.3](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.2...v0.1.3) (2019-03-12)
 
 
