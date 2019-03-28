@@ -22,9 +22,8 @@ describe('AtomIdeClick', () => {
       return config[value];
     });
 
-    spyOn(atom.views, 'getView').andReturn('FakeEditorView');
-
     spyOn(clickHandlers, 'goToDefinitions');
+
     clickProvider = new ClickProvider({
       clickHandler: clickHandlers.goToDefinitions,
     });
