@@ -1,3 +1,15 @@
+# [0.3.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.2.0...v0.3.0) (2019-04-09)
+
+
+### Bug Fixes
+
+* missing dependencies installation ([c1fdd16](https://github.com/atom-ide-community/atom-ide-definitions/commit/c1fdd16))
+
+
+### Features
+
+* add hyperclick provider ([6beaa60](https://github.com/atom-ide-community/atom-ide-definitions/commit/6beaa60))
+
 # [0.2.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.3...v0.2.0) (2019-03-13)
 
 
