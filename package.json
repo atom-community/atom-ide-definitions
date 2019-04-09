@@ -8,15 +8,13 @@
     "atom-ide",
     "defintion"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-ide-go-to-definition:go-to-definition"
-  },
   "repository": "https://github.com/atom-ide-community/atom-ide-definitions",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-package-deps": "^5.0.0",
     "atom-languageclient": "^0.9.9"
   },
   "devDependencies": {
@@ -44,10 +42,39 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
+  "package-deps": [
+    "hyperclick"
+  ],
   "consumedServices": {
     "definitions": {
       "versions": {
         "0.1.0": "consumeDefinitionsService"
+      }
+    }
+  },
+  "providedServices": {
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "getClickProvider"
+      }
+    }
+  },
+  "configSchema": {
+    "clickPriority": {
+      "order": 1,
+      "title": "Hyperclick Provider Priority",
+      "description": "Provider priority relative to other providers. For more details see [Hyperclick's provider documentation](https://github.com/facebookarchive/hyperclick#details).",
+      "type": "number",
+      "default": 0
+    },
+    "clickGrammarScopes": {
+      "order": 2,
+      "title": "Hyperclick Grammar Scopes",
+      "description": "List of scopes to allow action on. For example, `source.js, source.ts, source.go` *Requires reload to take effect.*",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "string"
       }
     }
   }

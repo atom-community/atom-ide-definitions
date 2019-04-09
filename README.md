@@ -19,6 +19,9 @@ A replacement of the definitions functionality from the original Atom-IDE / Nucl
 
   You can also search for [packages](https://atom.io/packages/search?q=IDE) in Atom.
 
+3. (Optional) Install [hyperclick](https://atom.io/packages/hyperclick) for `cmd/ctrl+click` support  
+  You can set [priority and grammar scope](https://github.com/facebookarchive/hyperclick#details) in extension settings
+
 ## Contributing
 
 Please see the [contributing guidelines](CONTRIBUTING.md).
