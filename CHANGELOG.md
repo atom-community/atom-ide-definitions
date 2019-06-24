@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.1...v0.3.2) (2019-06-24)
+
+
+### Bug Fixes
+
+* upgrade additional build packages ([d30a75b](https://github.com/atom-ide-community/atom-ide-definitions/commit/d30a75b))
+
 ## [0.3.1](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.0...v0.3.1) (2019-06-21)
 
 
