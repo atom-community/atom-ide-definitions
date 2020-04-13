@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.3...v0.3.4) (2020-04-13)
+
+
+### Bug Fixes
+
+* activation hook to improve the loading time by deferring it ([56227be](https://github.com/atom-ide-community/atom-ide-definitions/commit/56227be))
+
 ## [0.3.3](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.2...v0.3.3) (2020-01-28)
 
 

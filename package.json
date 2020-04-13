@@ -1,7 +1,7 @@
 {
   "name": "atom-ide-definitions",
   "main": "./lib/main",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "A replacement for the Definitions functionality that was originally part of the Atom IDE package from Facebook.",
   "keywords": [
     "atom-package",
@@ -29,7 +29,7 @@
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.16"
   },
-   "activationHooks": [
+  "activationHooks": [
     "core:loaded-shell-environment"
   ],
   "release": {
