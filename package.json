@@ -18,16 +18,16 @@
     "atom-package-deps": "^5.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
-    "@commitlint/travis-cli": "^8.0.0",
-    "@semantic-release/apm-config": "^6.0.1",
-    "@types/atom": "^1.36.1",
-    "@types/node": "^11.13.14",
-    "commitlint": "^8.0.0",
-    "husky": "^2.4.1",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/travis-cli": "^8.3.5",
+    "@semantic-release/apm-config": "^8.0.0",
+    "@types/atom": "^1.40.2",
+    "@types/node": "^13.11.1",
+    "commitlint": "^8.3.5",
+    "husky": "^4.2.5",
     "prettier": "^1.18.2",
-    "semantic-release": "^15.13.16"
+    "semantic-release": "^17.0.6"
   },
   "activationHooks": [
     "core:loaded-shell-environment"
