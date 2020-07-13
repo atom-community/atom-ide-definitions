@@ -23,7 +23,7 @@
     "@commitlint/travis-cli": "^8.3.5",
     "@semantic-release/apm-config": "^8.0.0",
     "@types/atom": "^1.40.2",
-    "@types/node": "^13.11.1",
+    "@types/node": "^14.0.22",
     "commitlint": "^8.3.5",
     "husky": "^4.2.5",
     "prettier": "^1.18.2",
