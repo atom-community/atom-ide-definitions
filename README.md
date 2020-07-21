@@ -14,14 +14,14 @@ A replacement of the definitions functionality from the original Atom-IDE / Nucl
 
 2. Install an IDE language package that you would like to use:
 
-- TypeScript & JavaScript [ide-typescript](https://atom.io/packages/ide-typescript)
+- TypeScript & JavaScript [atom-typescript](https://atom.io/packages/atom-typescript)
 - Python [ide-python](https://atom.io/packages/ide-python)
 - Rust [ide-rust](hhttps://atom.io/packages/ide-rust)
 
 You can also search for [packages](https://atom.io/packages/search?q=IDE) in Atom.
 
-3. (Optional) Install [hyperclick](https://atom.io/packages/hyperclick) for `cmd/ctrl+click` support  
-   You can set [priority and grammar scope](https://github.com/facebookarchive/hyperclick#details) in extension settings
+3. (Optional) Install [atom-ide-hyperclick](https://atom.io/packages/atom-ide-hyperclick) for `cmd/ctrl+click` support
+   You can set priority and grammar scope in extension settings
 
 ## Contributing
 

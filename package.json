@@ -31,7 +31,7 @@
     "core:loaded-shell-environment"
   ],
   "package-deps": [
-    "hyperclick"
+    "atom-ide-hyperclick"
   ],
   "consumedServices": {
     "definitions": {
