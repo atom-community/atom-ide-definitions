@@ -1,3 +1,12 @@
+## [0.3.5](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.4...v0.3.5) (2020-07-21)
+
+
+### Bug Fixes
+
+* bump script + npm run bump ([82c0b09](https://github.com/atom-ide-community/atom-ide-definitions/commit/82c0b096d336644093cbfe90a4626267bdf69436))
+* export functions directly ([9910dce](https://github.com/atom-ide-community/atom-ide-definitions/commit/9910dced0276f4228481e7d49bb06531073de6b5))
+* update package-lock.json ([f1e6d34](https://github.com/atom-ide-community/atom-ide-definitions/commit/f1e6d3400bf013b6bfbe1e20e26c503b033d210f))
+
 ## [0.3.4](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.3...v0.3.4) (2020-04-13)
 
 ### Bug Fixes
