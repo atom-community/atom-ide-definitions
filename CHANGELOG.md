@@ -1,81 +1,70 @@
 ## [0.3.4](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.3...v0.3.4) (2020-04-13)
 
-
 ### Bug Fixes
 
-* activation hook to improve the loading time by deferring it ([56227be](https://github.com/atom-ide-community/atom-ide-definitions/commit/56227be))
+- activation hook to improve the loading time by deferring it ([56227be](https://github.com/atom-ide-community/atom-ide-definitions/commit/56227be))
 
 ## [0.3.3](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.2...v0.3.3) (2020-01-28)
 
-
 ### Bug Fixes
 
-* items without definition being active for click ([8099fb2](https://github.com/atom-ide-community/atom-ide-definitions/commit/8099fb2)), closes [#11](https://github.com/atom-ide-community/atom-ide-definitions/issues/11)
+- items without definition being active for click ([8099fb2](https://github.com/atom-ide-community/atom-ide-definitions/commit/8099fb2)), closes [#11](https://github.com/atom-ide-community/atom-ide-definitions/issues/11)
 
 ## [0.3.2](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.1...v0.3.2) (2019-06-24)
 
-
 ### Bug Fixes
 
-* upgrade additional build packages ([d30a75b](https://github.com/atom-ide-community/atom-ide-definitions/commit/d30a75b))
+- upgrade additional build packages ([d30a75b](https://github.com/atom-ide-community/atom-ide-definitions/commit/d30a75b))
 
 ## [0.3.1](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.0...v0.3.1) (2019-06-21)
 
-
 ### Bug Fixes
 
-* upgrade packages ([c1320f9](https://github.com/atom-ide-community/atom-ide-definitions/commit/c1320f9))
+- upgrade packages ([c1320f9](https://github.com/atom-ide-community/atom-ide-definitions/commit/c1320f9))
 
 # [0.3.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.2.0...v0.3.0) (2019-04-09)
 
-
 ### Bug Fixes
 
-* missing dependencies installation ([c1fdd16](https://github.com/atom-ide-community/atom-ide-definitions/commit/c1fdd16))
-
+- missing dependencies installation ([c1fdd16](https://github.com/atom-ide-community/atom-ide-definitions/commit/c1fdd16))
 
 ### Features
 
-* add hyperclick provider ([6beaa60](https://github.com/atom-ide-community/atom-ide-definitions/commit/6beaa60))
+- add hyperclick provider ([6beaa60](https://github.com/atom-ide-community/atom-ide-definitions/commit/6beaa60))
 
 # [0.2.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.3...v0.2.0) (2019-03-13)
 
-
 ### Features
 
-* refactor and handle providers in the right way ([051ac80](https://github.com/atom-ide-community/atom-ide-definitions/commit/051ac80))
+- refactor and handle providers in the right way ([051ac80](https://github.com/atom-ide-community/atom-ide-definitions/commit/051ac80))
 
 ## [0.1.3](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.2...v0.1.3) (2019-03-12)
 
-
 ### Bug Fixes
 
-* add getting started to README ([4f6ef06](https://github.com/atom-ide-community/atom-ide-definitions/commit/4f6ef06))
+- add getting started to README ([4f6ef06](https://github.com/atom-ide-community/atom-ide-definitions/commit/4f6ef06))
 
 ## [0.1.2](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.1...v0.1.2) (2019-03-11)
 
-
 ### Bug Fixes
 
-* update package version to 0.1.1 ([0eb39d3](https://github.com/atom-ide-community/atom-ide-definitions/commit/0eb39d3))
+- update package version to 0.1.1 ([0eb39d3](https://github.com/atom-ide-community/atom-ide-definitions/commit/0eb39d3))
 
 # [0.1.1](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.1.0...v0.1.1) (2019-03-11)
 
 ### Bug Fixes
 
-* Fix build
+- Fix build
 
 # [0.1.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.0.3...v0.1.0) (2019-03-11)
 
-
 ### Bug Fixes
 
-* remove comments ([3fc7db6](https://github.com/atom-ide-community/atom-ide-definitions/commit/3fc7db6))
-
+- remove comments ([3fc7db6](https://github.com/atom-ide-community/atom-ide-definitions/commit/3fc7db6))
 
 ### Features
 
-* add travis ci support ([ec46a02](https://github.com/atom-ide-community/atom-ide-definitions/commit/ec46a02))
+- add travis ci support ([ec46a02](https://github.com/atom-ide-community/atom-ide-definitions/commit/ec46a02))
 
 ## 0.0.3
 
