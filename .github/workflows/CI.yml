@@ -63,7 +63,7 @@ jobs:
         with:
           node-version: "12.x"
       - name: NPM install
-        run: npm ci
+        run: npm install
       - name: Release 🎉
         uses: cycjimmy/semantic-release-action@v2
         with:
