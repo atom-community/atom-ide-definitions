@@ -1,8 +1,8 @@
 # atom-ide-definitions package
 
-[![Build Status](https://badgen.net/travis/atom-ide-community/atom-ide-definitions/master)](https://travis-ci.org/atom-ide-community/atom-ide-definitions)
+![CI](https://github.com/atom-ide-community/atom-ide-definitions/workflows/CI/badge.svg)
 
-A replacement of the definitions functionality from the original Atom-IDE / Nuclide package developed by Facebook.
+Provides definitions functionality for the Atom IDE
 
 ## Features
 
@@ -14,7 +14,8 @@ A replacement of the definitions functionality from the original Atom-IDE / Nucl
 
 2. Install an IDE language package that you would like to use:
 
-- TypeScript & JavaScript [atom-typescript](https://atom.io/packages/atom-typescript)
+- TypeScript [atom-typescript](https://atom.io/packages/atom-typescript)
+- JavaScript [atom-ide-javascript](https://atom.io/packages/atom-ide-javascript)
 - Python [ide-python](https://atom.io/packages/ide-python)
 - Rust [ide-rust](hhttps://atom.io/packages/ide-rust)
 
