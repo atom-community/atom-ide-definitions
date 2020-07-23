@@ -25,7 +25,7 @@ jobs:
         run: apm -v
       - name: Install APM dependencies
         run: |
-          apm ci  # uses locked module. use `apm install` for non-locked
+          apm install
       - name: Atom Package dependencies
         run: node ./script/install-package-deps.js
       - name: Run tests 👩🏾‍💻
@@ -42,10 +42,12 @@ jobs:
           fetch-depth: 0
       - name: Commit lint ✨
         uses: wagoid/commitlint-github-action@v1
-      - uses: UziTech/action-setup-atom@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
       - name: Install NPM dependencies
         run: |
-          npm ci  # uses locked module. use `npm install` for non-locked
+          npm install
       - name: Lint ✨
         run: npm run lint
 
