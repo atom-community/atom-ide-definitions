@@ -1,3 +1,11 @@
+## [0.3.6](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.5...v0.3.6) (2020-07-30)
+
+
+### Bug Fixes
+
+* don't throw error if no provider exists ([8f087ef](https://github.com/atom-ide-community/atom-ide-definitions/commit/8f087ef9fdf6087455eb54a34b81129befd72c90))
+* fix hyperclick provider ([b3130e6](https://github.com/atom-ide-community/atom-ide-definitions/commit/b3130e6832cd438593d0d86e9e0113cdf41b7bc1))
+
 ## [0.3.5](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.4...v0.3.5) (2020-07-21)
 
 
