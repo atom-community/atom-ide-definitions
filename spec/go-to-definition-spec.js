@@ -1,6 +1,6 @@
 /** @babel */
 
-import { getDefinitions } from "../lib/goToDefinition";
+import { getDefinitions } from "../lib/goToDefinition"
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -11,10 +11,10 @@ describe("go to definition", () => {
   describe("getDefinitions", () => {
     it("returns undefined if no provider exists for editor", async () => {
       const providerRegistry = {
-        getProviderForEditor() {}
+        getProviderForEditor() {},
       }
-      const definitions = await getDefinitions(providerRegistry, { editor: true, position: true });
-      expect(definitions).toBeUndefined();
-    });
-  });
-});
+      const definitions = await getDefinitions(providerRegistry, { editor: true, position: true })
+      expect(definitions).toBeUndefined()
+    })
+  })
+})
