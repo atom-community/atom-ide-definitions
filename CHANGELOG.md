@@ -1,3 +1,11 @@
+# [0.4.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.6...v0.4.0) (2020-10-05)
+
+
+### Features
+
+* install atom-ide-base ([70c06d6](https://github.com/atom-ide-community/atom-ide-definitions/commit/70c06d66a7c0842a1a5f95dfbccbbf262b193bc3))
+* use ProviderRegistry from atom-ide-base ([55f3004](https://github.com/atom-ide-community/atom-ide-definitions/commit/55f3004e0c2136271071649912fc4d0c6e063525))
+
 ## [0.3.6](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.5...v0.3.6) (2020-07-30)
 
 ### Bug Fixes
