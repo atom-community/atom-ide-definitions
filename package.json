@@ -19,7 +19,7 @@
     "bump": "ncu -u -x coffeescript"
   },
   "dependencies": {
-    "atom-ide-base": "^1.8.0",
+    "atom-ide-base": "^1.9.0",
     "atom-languageclient": "^0.9.9",
     "atom-package-deps": "^6.0.0"
   },
