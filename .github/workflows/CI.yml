@@ -23,11 +23,11 @@ jobs:
           channel: ${{ matrix.atom_channel }}
       - name: Versions
         run: apm -v
-      - name: Install APM dependencies
+      - name: Install dependencies
         run: |
           apm install
-      - name: Atom Package dependencies
-        run: node ./script/install-package-deps.js
+          ./node_modules/.bin/atom-package-deps .
+
       - name: Run tests 👩🏾‍💻
         run: npm run test
 
@@ -64,6 +64,8 @@ jobs:
           node-version: "12.x"
       - name: NPM install
         run: npm install
+      # - name: Build and Commit
+      #   run: npm run build-commit
       - name: Release 🎉
         uses: cycjimmy/semantic-release-action@v2
         with:
