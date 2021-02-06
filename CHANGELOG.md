@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.4.0...v0.4.1) (2021-02-06)
+
+
+### Bug Fixes
+
+* hide installation prompt in package-deps ([21d1d9b](https://github.com/atom-ide-community/atom-ide-definitions/commit/21d1d9bf1a9288c58b0b849f6e067039ce64ec71))
+* update atom-package-deps ([05b7c34](https://github.com/atom-ide-community/atom-ide-definitions/commit/05b7c3463c056bd34a93696ee738afabec37b2ac))
+* update dependencies ([3a2681c](https://github.com/atom-ide-community/atom-ide-definitions/commit/3a2681ceca1cff4b1064a3cdd644e47abce5a750))
+
 # [0.4.0](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.3.6...v0.4.0) (2020-10-05)
 
 
