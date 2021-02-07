@@ -15,7 +15,9 @@
   },
   "scripts": {
     "format": "prettier --write .",
+    "test.format": "prettier . --check",
     "lint": "eslint . --fix",
+    "test.lint": "eslint .",
     "bump": "ncu -u -x coffeescript"
   },
   "dependencies": {
