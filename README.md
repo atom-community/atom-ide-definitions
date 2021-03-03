@@ -24,6 +24,13 @@ You can also search for [packages](https://atom.io/packages/search?q=IDE) in Ato
 3. (Optional) Install [atom-ide-hyperclick](https://atom.io/packages/atom-ide-hyperclick) for `cmd/ctrl+click` support
    You can set priority and grammar scope in extension settings
 
+### Screenshots
+
+![image](https://user-images.githubusercontent.com/16418197/109838730-0c22ef80-7c0c-11eb-9bb4-4cad2d2174cf.png)
+![image](https://user-images.githubusercontent.com/16418197/109838982-48eee680-7c0c-11eb-88ee-5ab7889bb2af.png)
+![image](https://user-images.githubusercontent.com/16418197/109838990-4a201380-7c0c-11eb-9bf2-7d3bf47ade5d.png)
+
+
 ## Contributing
 
 Please see the [contributing guidelines](CONTRIBUTING.md).
