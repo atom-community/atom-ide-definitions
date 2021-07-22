@@ -1,3 +1,10 @@
+## [0.4.2](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.4.1...v0.4.2) (2021-07-22)
+
+
+### Bug Fixes
+
+* return a Disposable from consumeDefinitionsService ([#47](https://github.com/atom-ide-community/atom-ide-definitions/issues/47)) ([8b583c3](https://github.com/atom-ide-community/atom-ide-definitions/commit/8b583c35999d15e3b85834a389ed59c5d16a0001))
+
 ## [0.4.1](https://github.com/atom-ide-community/atom-ide-definitions/compare/v0.4.0...v0.4.1) (2021-02-06)
 
 
