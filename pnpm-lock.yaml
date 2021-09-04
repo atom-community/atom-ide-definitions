@@ -10,7 +10,7 @@ importers:
       atom-package-deps: ^7.2.0
       eslint: 7.32.0
       eslint-config-atomic: ^1.9.0
-      npm-check-updates: 11.8.3
+      npm-check-updates: 11.8.5
       prettier: ^2.2.1
     dependencies:
       atom-ide-base: 2.3.2
@@ -20,7 +20,7 @@ importers:
       '@types/node': 16.4.1
       eslint: 7.32.0
       eslint-config-atomic: 1.9.0_eslint@7.32.0
-      npm-check-updates: 11.8.3
+      npm-check-updates: 11.8.5
       prettier: 2.2.1
 
 packages:
@@ -782,7 +782,7 @@ packages:
     dependencies:
       ansi-align: 3.0.0
       camelcase: 6.2.0
-      chalk: 4.1.1
+      chalk: 4.1.2
       cli-boxes: 2.2.1
       string-width: 4.2.0
       type-fest: 0.20.2
@@ -806,29 +806,6 @@ packages:
 
   /builtins/1.0.3:
     resolution: {integrity: sha1-y5T662HIaWRR2zZTThQi+U8K7og=}
-    dev: true
-
-  /cacache/15.0.5:
-    resolution: {integrity: sha512-lloiL22n7sOjEEXdL8NAjTgv9a1u43xICE9/203qonkZUCj5X1UEWIdf2/Y0d6QcCtMzbKQyhrcDbdvlZTs/+A==}
-    engines: {node: '>= 10'}
-    dependencies:
-      '@npmcli/move-file': 1.0.1
-      chownr: 2.0.0
-      fs-minipass: 2.1.0
-      glob: 7.1.6
-      infer-owner: 1.0.4
-      lru-cache: 6.0.0
-      minipass: 3.1.3
-      minipass-collect: 1.0.2
-      minipass-flush: 1.0.5
-      minipass-pipeline: 1.2.3
-      mkdirp: 1.0.4
-      p-map: 4.0.0
-      promise-inflight: 1.0.1
-      rimraf: 3.0.2
-      ssri: 8.0.1
-      tar: 6.1.0
-      unique-filename: 1.1.1
     dev: true
 
   /cacache/15.2.0:
@@ -903,6 +880,14 @@ packages:
 
   /chalk/4.1.1:
     resolution: {integrity: sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==}
+    engines: {node: '>=10'}
+    dependencies:
+      ansi-styles: 4.2.1
+      supports-color: 7.1.0
+    dev: true
+
+  /chalk/4.1.2:
+    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
     dependencies:
       ansi-styles: 4.2.1
@@ -2031,13 +2016,6 @@ packages:
     resolution: {integrity: sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==}
     dev: true
 
-  /hosted-git-info/3.0.8:
-    resolution: {integrity: sha512-aXpmwoOhRBrw6X3j0h5RloK4x1OzsxMPyxqIHyNfSe2pypkVTZFpEiRoSipPEPlMrh0HW/XsjkJ5WgnCirpNUw==}
-    engines: {node: '>=10'}
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /hosted-git-info/4.0.2:
     resolution: {integrity: sha512-c9OGXbZ3guC/xOlCg1Ci/VgWlwsqDv1yMQL1CWqXDL0hDjXuNcq0zuR4xqPSuasI3kqFDhqSyTjREz5gzq0fXg==}
     engines: {node: '>=10'}
@@ -2645,17 +2623,6 @@ packages:
       minipass: 3.1.3
     dev: true
 
-  /minipass-fetch/1.3.0:
-    resolution: {integrity: sha512-Yb23ESZZ/8QxiBvSpJ4atbVMVDx2CXrerzrtQzQ67eLqKg+zFIkYFTagk3xh6fdo+e/FvDtVuCD4QcuYDRR3hw==}
-    engines: {node: '>=8'}
-    dependencies:
-      minipass: 3.1.3
-      minipass-sized: 1.0.3
-      minizlib: 2.1.2
-    optionalDependencies:
-      encoding: 0.1.13
-    dev: true
-
   /minipass-fetch/1.3.4:
     resolution: {integrity: sha512-TielGogIzbUEtd1LsjZFs47RWuHHfhl6TiCx1InVxApBAmQ8bL0dL5ilkLGcRvuyW/A9nE+Lvn855Ewz8S0PnQ==}
     engines: {node: '>=8'}
@@ -2678,13 +2645,6 @@ packages:
     resolution: {integrity: sha512-ODqY18UZt/I8k+b7rl2AENgbWE8IDYam+undIJONvigAz8KR5GWblsFTEfQs0WODsjbSXWlm+JHEv8Gr6Tfdbg==}
     dependencies:
       jsonparse: 1.3.1
-      minipass: 3.1.3
-    dev: true
-
-  /minipass-pipeline/1.2.3:
-    resolution: {integrity: sha512-cFOknTvng5vqnwOpDsZTWhNll6Jf8o2x+/diplafmxpuIymAjzoOolZG0VvQf3V2HgqzJNhnuKHYp2BqDgz8IQ==}
-    engines: {node: '>=8'}
-    dependencies:
       minipass: 3.1.3
     dev: true
 
@@ -2785,12 +2745,12 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/11.8.3:
-    resolution: {integrity: sha512-NslIB6Af7GagVrN+bvBkObLyawIZfOnDnl8n9MHE+dFt0aChRYtvR6T2BLJKzOPIepCLmmh0NRR/qha0ExAELQ==}
+  /npm-check-updates/11.8.5:
+    resolution: {integrity: sha512-IYSHjlWe8UEugDy7X0qjBeJwcni4DlcWdBK4QQEbwgkNlEDlXyd4yQJYWFumKaJzrp/n5/EcvaboXsBD1Er/pw==}
     engines: {node: '>=10.17'}
     hasBin: true
     dependencies:
-      chalk: 4.1.1
+      chalk: 4.1.2
       cint: 8.2.1
       cli-table: 0.3.6
       commander: 6.2.1
@@ -2830,15 +2790,6 @@ packages:
     resolution: {integrity: sha512-EPfafl6JL5/rU+ot6P3gRSCpPDW5VmIzX959Ob1+ySFUuuYHWHekXpwdUZcKP5C+DS4GEtdJluwBjnsNDl+fSA==}
     dev: true
 
-  /npm-package-arg/8.0.1:
-    resolution: {integrity: sha512-/h5Fm6a/exByzFSTm7jAyHbgOqErl9qSNJDQF32Si/ZzgwT2TERVxRxn3Jurw1wflgyVVAxnFR4fRHPM7y1ClQ==}
-    engines: {node: '>=10'}
-    dependencies:
-      hosted-git-info: 3.0.8
-      semver: 7.3.5
-      validate-npm-package-name: 3.0.0
-    dev: true
-
   /npm-package-arg/8.1.5:
     resolution: {integrity: sha512-LhgZrg0n0VgvzVdSm1oiZworPbTxYHUJCgtsJW8mGvlDpxTM1vSJc3m5QZeUkhAHIzbz3VCHd/R4osi1L1Tg/Q==}
     engines: {node: '>=10'}
@@ -2859,14 +2810,6 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-pick-manifest/6.1.0:
-    resolution: {integrity: sha512-ygs4k6f54ZxJXrzT0x34NybRlLeZ4+6nECAIbr2i0foTnijtS1TJiyzpqtuUAJOps/hO0tNDr8fRV5g+BtRlTw==}
-    dependencies:
-      npm-install-checks: 4.0.0
-      npm-package-arg: 8.0.1
-      semver: 7.3.5
-    dev: true
-
   /npm-pick-manifest/6.1.1:
     resolution: {integrity: sha512-dBsdBtORT84S8V8UTad1WlUyKIY9iMsAmqxHbLdeEeBNMLQDlDWWra3wYUx9EBEIiG/YwAy0XyNHDd2goAsfuA==}
     dependencies:
@@ -2882,10 +2825,10 @@ packages:
     dependencies:
       make-fetch-happen: 9.0.4
       minipass: 3.1.3
-      minipass-fetch: 1.3.0
+      minipass-fetch: 1.3.4
       minipass-json-stream: 1.0.1
       minizlib: 2.1.2
-      npm-package-arg: 8.0.1
+      npm-package-arg: 8.1.5
     dev: true
 
   /npmlog/4.1.2:
@@ -3059,15 +3002,15 @@ packages:
       '@npmcli/installed-package-contents': 1.0.6
       '@npmcli/promise-spawn': 1.3.2
       '@npmcli/run-script': 1.8.2
-      cacache: 15.0.5
+      cacache: 15.2.0
       chownr: 2.0.0
       fs-minipass: 2.1.0
       infer-owner: 1.0.4
       minipass: 3.1.3
       mkdirp: 1.0.4
-      npm-package-arg: 8.0.1
+      npm-package-arg: 8.1.5
       npm-packlist: 2.1.4
-      npm-pick-manifest: 6.1.0
+      npm-pick-manifest: 6.1.1
       npm-registry-fetch: 11.0.0
       promise-retry: 2.0.1
       read-package-json-fast: 2.0.1
@@ -3914,7 +3857,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       boxen: 5.0.0
-      chalk: 4.1.1
+      chalk: 4.1.2
       configstore: 5.0.1
       has-yarn: 2.1.0
       import-lazy: 2.1.0
